@@ -6,75 +6,83 @@
 
 <p align="center">
   <strong>The Full-Stack Framework for AI-Native Applications</strong><br/>
-  Xpell Server • Wormholes Protocol • Xpell-UI • Vibe Coding
+  Build real-time apps, dashboards, and agent interfaces powered by AI.
+</p>
+
+<p align="center">
+  <a href="https://github.com/xpell-ai">GitHub</a> •
+  <a href="#">Website</a> •
+  <a href="#">Docs</a>
 </p>
 
 ---
 
 ## 🚀 What is Xpell?
 
-Xpell is an open-source framework for building real-time applications, dashboards, and AI-driven user interfaces.
+**Xpell is an open-source full-stack framework for building AI-driven applications.**
 
 It combines:
 
-- **Xpell Server** – real-time backend and module system  
-- **Wormholes** – ultra-fast live communication between server ↔ client  
-- **Xpell-UI** – declarative JSON UI engine (XView)  
-- **Vibe Coding** – generate UI from natural-language prompts  
+- **Xpell Server** — real-time backend runtime & module engine  
+- **Wormholes Protocol** — low-latency server ↔ client live communication  
+- **Xpell-UI (XView Engine)** — declarative JSON-based UI renderer  
+- **Vibe Coding** — generate UI instantly from natural language prompts  
 
-Xpell is designed for developers building AI agents, internal tools, control panels, and dynamic business applications.
-
----
-
-## 🌌 Why Xpell?
-
-Traditional web frameworks weren't built for the age of AI.
-
-Xpell enables:
-- AI-generated UIs  
-- Real-time data-driven components  
-- Dynamic dashboards and workflows  
-- Low-code + no-code development  
-- UI created and updated by agents  
-
-Xpell is **Next.js for AI-native apps**.
+Together, these components let developers create dynamic dashboards, internal tools, workflows, and full AI agent interfaces — with minimal code.
 
 ---
 
-## 📦 Repositories (coming soon)
+## ✨ Why Xpell?
 
-- `xpell-server` – core server runtime  
-- `xpell-ui` – declarative UI renderer  
-- `wormholes` – real-time protocol  
-- `vibe-coding` – prompt → UI engine  
-- `xpell-examples` – tutorials, starters, demo apps  
+Traditional frameworks like React / Next.js weren't built for the AI generation.
+
+Xpell introduces:
+
+### 🔹 AI-Generated and AI-Editable UI  
+Agents can create, modify, and operate user interfaces in real time.
+
+### 🔹 Real-Time State & Data  
+Wormholes keeps server logic and UI perfectly in sync.
+
+### 🔹 Declarative XView JSON  
+A simple, AI-friendly format for UI building — easy to generate or edit.
+
+### 🔹 Full-Stack by Design  
+Server, client, protocol, and UI schema work together seamlessly.
+
+👉 **Think of Xpell as “Next.js + React — reimagined for AI agents.”**
 
 ---
 
-## 🌐 Community
+## 📦 Core Repositories (Coming Soon)
 
-Coming soon:
+- **xpell-server** — base runtime, modules, entity engine  
+- **xpell-ui** — XView rendering engine & components  
+- **wormholes** — real-time communication protocol  
+- **vibe-coding** — prompt → UI generator  
+- **xpell-examples** — starter apps and demos  
+
+---
+
+## 🌍 Community
+
+Xpell is in active development.  
+Soon you’ll see:
+
 - Discord community  
-- Tutorials and examples  
-- Contributing guide  
+- Contribution guidelines  
 - Module marketplace  
+- Tutorials and starter kits  
 
 ---
 
 ## ❤️ Contributing
 
-We welcome issues, ideas, discussions, and pull requests.  
-Our mission is to make AI-native app development accessible to everyone.
-
----
-
-## ✨ License
-
-Open-source (MIT for core components).  
-Commercial extensions available through AIME platform.
+We welcome ideas, discussions, issues, and PRs.  
+Our goal is to build the best open-source framework for AI-native applications.
 
 ---
 
 <p align="center">
-  Built with ❤️ by the Xpell.ai Team
+  <strong>Built with ❤️ by the Xpell.ai team</strong>
 </p>
