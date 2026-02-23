@@ -1,88 +1,88 @@
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/245213194?s=200&v=4" width="120" />
+  <img src="https://avatars.githubusercontent.com/u/245213194?s=200&v=4" width="120" alt="Xpell.ai logo" />
 </p>
 
 <h1 align="center">Xpell.ai</h1>
 
 <p align="center">
-  <strong>The Full-Stack Framework for AI-Native Applications</strong><br/>
-  Build real-time apps, dashboards, and agent interfaces powered by AI.
+  <strong>Xpell 2 Alpha — AI-native runtime for vibe coding</strong><br/>
+  Build real-time UI, 3D, and server-connected applications with structured runtime contracts.
 </p>
 
 <p align="center">
-  <a href="https://github.com/xpell-ai">GitHub</a> •
-  <a href="#">Website</a> •
-  <a href="#">Docs</a>
+  <a href="https://xpell.ai">Website</a> •
+  <a href="https://xpell.ai/xpell-2-alpha/">Xpell 2 Alpha</a> •
+  <a href="https://xpell.ai/getting-started/">Getting Started</a> •
+  <a href="https://xpell.ai/examples/">Examples</a> •
+  <a href="https://discord.gg/cQU79ge3Dx">Discord</a>
 </p>
 
 ---
 
-## 🚀 What is Xpell?
+## What is Xpell?
 
-**Xpell is an open-source full-stack framework for building AI-driven applications.**
+Xpell is a modular, real-time platform designed for **AI-native architecture**:
+software structured so AI can collaborate with live systems — evolving interfaces, flows, and state using explicit runtime contracts.
 
-It combines:
+Xpell 2 ships as a set of scoped packages:
 
-- **Xpell Server** — real-time backend runtime & module engine  
-- **Wormholes Protocol** — low-latency server ↔ client live communication  
-- **Xpell-UI (XView Engine)** — declarative JSON-based UI renderer  
-- **Vibe Coding** — generate UI instantly from natural language prompts  
-
-Together, these components let developers create dynamic dashboards, internal tools, workflows, and full AI agent interfaces — with minimal code.
-
----
-
-## ✨ Why Xpell?
-
-Traditional frameworks like React / Next.js weren't built for the AI generation.
-
-Xpell introduces:
-
-### 🔹 AI-Generated and AI-Editable UI  
-Agents can create, modify, and operate user interfaces in real time.
-
-### 🔹 Real-Time State & Data  
-Wormholes keeps server logic and UI perfectly in sync.
-
-### 🔹 Declarative XView JSON  
-A simple, AI-friendly format for UI building — easy to generate or edit.
-
-### 🔹 Full-Stack by Design  
-Server, client, protocol, and UI schema work together seamlessly.
-
-👉 **Think of Xpell as “Next.js + React — reimagined for AI agents.”**
+- **@xpell/core** — runtime engine, XData 2, Nano-Commands 2, XEM, XModule, XObject
+- **@xpell/ui** — real-time UI runtime (XUI + XVM + XVMApp)
+- **@xpell/3d** — spatial runtime layer (Three.js-based)
+- **@xpell/node** — server runtime (xnode) + Wormholes + XDB integration
 
 ---
 
-## 📦 Core Repositories (Coming Soon)
+## Why runtime matters (AI-native architecture)
 
-- **xpell-server** — base runtime, modules, entity engine  
-- **xpell-ui** — XView rendering engine & components  
-- **wormholes** — real-time communication protocol  
-- **vibe-coding** — prompt → UI generator  
-- **xpell-examples** — starter apps and demos  
+AI can generate code — but generation alone isn’t architecture.
 
----
+Xpell is built for scenarios where AI needs to:
+- modify UI as structured data (not fragile code bundles)
+- evolve logic via serializable commands
+- coordinate predictable shared state
+- operate across client + server with real-time sync
 
-## 🌍 Community
-
-Xpell is in active development.  
-Soon you’ll see:
-
-- Discord community  
-- Contribution guidelines  
-- Module marketplace  
-- Tutorials and starter kits  
+This enables **vibe coding** workflows without treating the app as a one-off code dump.
 
 ---
 
-## ❤️ Contributing
+## Install (Alpha)
 
-We welcome ideas, discussions, issues, and PRs.  
-Our goal is to build the best open-source framework for AI-native applications.
+Xpell 2 is currently in **Alpha**. Install explicitly via npm tags:
+
+```bash
+npm i @xpell/core@alpha
+npm i @xpell/ui@alpha
+npm i @xpell/3d@alpha
+npm i @xpell/node@alpha
+```
+
+---
+
+## Status
+
+- Xpell 2 is actively evolving in Alpha.
+- APIs may change as contracts stabilize.
+- The “vibe coding UX layer” comes later — Xpell 2 is the runtime foundation.
+
+---
+
+## Repositories
+
+Core packages live under the `@xpell/*` namespace:
+
+- @xpell/core
+- @xpell/ui
+- @xpell/3d
+- @xpell/node
+
+For full end-to-end examples and Codex skills:
+- https://xpell.ai/examples/
+- https://xpell.ai/codex/
 
 ---
 
 <p align="center">
-  <strong>Built with ❤️ by the Xpell.ai team</strong>
+  <strong>Built by Aime Technologies</strong>
 </p>
