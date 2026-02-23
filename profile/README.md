@@ -77,6 +77,8 @@ Core packages live under the `@xpell/*` namespace:
 - @xpell/3d
 - @xpell/node
 
+- xpell-codex-skills — Official Codex skills for generating Xpell 2 apps
+
 For full end-to-end examples and Codex skills:
 - https://xpell.ai/examples/
 - https://xpell.ai/codex/
