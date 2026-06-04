@@ -12,7 +12,8 @@
   <a href="https://xpell.ai/examples/">Examples</a> •
   <a href="https://discord.gg/cQU79ge3Dx">Discord</a>
 </p>
----
+
+
 ## What is Xpell?
 Xpell is an AI-native runtime designed for real-time application mutation.
 Most AI development tools optimize:
