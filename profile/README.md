@@ -1,89 +1,170 @@
 <p align="center">
   <img src="https://avatars.githubusercontent.com/u/245213194?s=200&v=4" width="120" alt="Xpell.ai logo" />
 </p>
-
 <h1 align="center">Xpell.ai</h1>
-
 <p align="center">
-  <strong>Xpell 2 Alpha — AI-native runtime for vibe coding</strong><br/>
-  Build real-time UI, 3D, and server-connected applications with structured runtime contracts.
+  <strong>Xpell 2 Beta — Build apps while they run.</strong><br/>
+  AI-native runtime for real-time application mutation.
 </p>
-
 <p align="center">
   <a href="https://xpell.ai">Website</a> •
-  <a href="https://xpell.ai/xpell-2-alpha/">Xpell 2 Alpha</a> •
   <a href="https://xpell.ai/getting-started/">Getting Started</a> •
   <a href="https://xpell.ai/examples/">Examples</a> •
   <a href="https://discord.gg/cQU79ge3Dx">Discord</a>
 </p>
-
 ---
-
 ## What is Xpell?
+Xpell is an AI-native runtime designed for real-time application mutation.
+Most AI development tools optimize:
 
-Xpell is a modular, real-time platform designed for **AI-native architecture**:
-software structured so AI can collaborate with live systems — evolving interfaces, flows, and state using explicit runtime contracts.
+Prompt → Generate Code → Build → Refresh
 
-Xpell 2 ships as a set of scoped packages:
+Xpell enables:
 
-- **@xpell/core** — runtime engine, XData 2, Nano-Commands 2, XEM, XModule, XObject
-- **@xpell/ui** — real-time UI runtime (XUI + XVM + XVMApp)
-- **@xpell/3d** — spatial runtime layer (Three.js-based)
-- **@xpell/node** — server runtime (xnode) + Wormholes + XDB integration
+Prompt → Runtime Artifact → Live Runtime Mutation
 
----
+Instead of regenerating full projects, Xpell updates runtime artifacts that are already being interpreted by a running application.
 
-## Why runtime matters (AI-native architecture)
+The running application becomes the editing surface.
 
-AI can generate code — but generation alone isn’t architecture.
+⸻
 
-Xpell is built for scenarios where AI needs to:
-- modify UI as structured data (not fragile code bundles)
-- evolve logic via serializable commands
-- coordinate predictable shared state
-- operate across client + server with real-time sync
+Xpell 2 Beta Demo
 
-This enables **vibe coding** workflows without treating the app as a one-off code dump.
+Watch a running application being:
 
----
+* modified
+* saved
+* refreshed
+* mutated again
 
-## Install (Alpha)
+without rebuilding.
 
-Xpell 2 is currently in **Alpha**. Install explicitly via npm tags:
+🌐 https://xpell.ai
 
-```bash
-npm i @xpell/core@alpha
-npm i @xpell/ui@alpha
-npm i @xpell/3d@alpha
-npm i @xpell/node@alpha
-```
+⸻
 
----
+Core Platform
 
-## Status
+Xpell is composed of several runtime layers:
 
-- Xpell 2 is actively evolving in Alpha.
-- APIs may change as contracts stabilize.
-- The “vibe coding UX layer” comes later — Xpell 2 is the runtime foundation.
+@xpell/core
 
----
+Runtime foundation including:
 
-## Repositories
+* XObject
+* XModule
+* XData 2
+* Nano Commands 2
+* XEM
 
-Core packages live under the `@xpell/*` namespace:
+@xpell/ui
 
-- @xpell/core
-- @xpell/ui
-- @xpell/3d
-- @xpell/node
+Real-time application runtime:
 
-- xpell-codex-skills — Official Codex skills for generating Xpell 2 apps
+* XUI
+* XVM
+* Runtime Views
+* Runtime Artifacts
 
-For full end-to-end examples and Codex skills:
-- https://xpell.ai/examples/
-- https://xpell.ai/codex/
+@xpell/node
 
----
+Server runtime:
+
+* XNode
+* Wormholes
+* XDB integration
+* Real-time synchronization
+
+@xpell/3d
+
+Spatial runtime layer built on Three.js.
+
+XVibe
+
+AI orchestration layer for runtime generation and mutation.
+
+Xpell Vibe Studio
+
+Runtime editor for:
+
+* Prompt-based mutations
+* Runtime artifact editing
+* View inspection
+* Generated module management
+
+⸻
+
+Why Runtime Matters
+
+AI can generate code.
+
+But generation alone is not architecture.
+
+Xpell is designed for scenarios where AI needs to:
+
+* modify UI as structured runtime data
+* evolve application behavior
+* coordinate shared state
+* operate across client and server
+* persist runtime artifacts
+
+This enables vibe-coding workflows without treating applications as disposable code dumps.
+
+⸻
+
+Getting Started
+
+Clone the starter:
+
+git clone https://github.com/xpell-ai/xpell-vibe-starter
+cd xpell-vibe-starter
+pnpm install
+pnpm dev
+
+Then:
+
+1. Configure your AI provider key
+2. Start the application
+3. Open Xpell Vibe Studio
+4. Prompt a mutation
+5. Preview
+6. Apply
+7. Save
+
+Full guide:
+
+https://xpell.ai/getting-started/
+
+⸻
+
+Current Status
+
+Available in Beta
+
+* Runtime view editing
+* Live application updates
+* Runtime artifact persistence
+* AI-assisted mutations
+* Generated modules
+* Client/server runtime architecture
+
+Experimental
+
+* Module repair
+* Runtime-aware planning
+* Advanced AI orchestration
+
+⸻
+
+Resources
+
+* Website: https://xpell.ai
+* Getting Started: https://xpell.ai/getting-started/
+* Examples: https://xpell.ai/examples/
+* Discord: https://discord.gg/cQU79ge3Dx
+
+⸻
 
 <p align="center">
   <strong>Built by Aime Technologies</strong>
